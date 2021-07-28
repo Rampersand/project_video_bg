@@ -1,0 +1,61 @@
+<html>
+<!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="https://vod-progressive.akamaized.net/exp=1627468526~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F298%2F21%2F526490087%2F2472551622.mp4~hmac=9949fbe1c4786d2f54e6b5cdb1fa2ef0d59784fe49555cfcb2b6f7d3a48f1baf/vimeo-prod-skyfire-std-us/01/298/21/526490087/2472551622.mp4?filename=pexels-shvets-production-7198786.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>Heading</h1>
+  <p>Sir Roger Aubrey Baskerville Mynors FBA (28 July 1903 – 17 October 1989) was an English classicist and medievalist who held the senior chair of Latin at the universities of Oxford and Cambridge. A textual critic, he was an expert in the study of manuscripts and their role in the reconstruction of classical texts.
+
+Mynors's career spanned most of the 20th century and straddled both of England's leading universities, Oxford and Cambridge. Educated at Eton College, he read Classics at Balliol College, Oxford, and spent the early years of his career as a fellow of the college. He served as the Kennedy Professor of Latin at Cambridge from 1944 to 1953 and as the Corpus Christi Professor of Latin at Oxford from 1953 until his retirement in 1970. He died in a car accident, aged 86, while traveling to his country residence, Treago Castle, in 1989.
+
+Mynors's reputation is that of one of Britain's foremost classicists.[1] He was an expert on palaeography, and has been credited with unravelling a number of highly complex manuscript relationships in his catalogues of the Balliol and Durham Cathedral libraries. His publications on classical subjects include critical editions of Virgil, Catullus, and Pliny the Younger. The final achievement of his scholarly career, a comprehensive commentary on Virgil's Georgics, was published posthumously. In addition to honorary degrees and fellowships from various institutions, Mynors was made a Knight Bachelor in 1963. Early life and secondary education
+Roger Aubrey Baskerville Mynors was born in Langley Burrell, Wiltshire,[2] into a family of Herefordshire gentry.[3] The Mynors family had owned the estate of Treago Castle since the 15th century and he would reside there in his later life. His mother was Margery Musgrave, and his father, Aubrey Baskerville Mynors, was an Anglican clergyman and rector of Langley Burrell, who had been secretary to the Pan-Anglican Congress, held in London in 1908. Among his four siblings was his identical twin brother Humphrey Mynors, who went on to become Deputy Governor of the Bank of England.[4] The brothers shared a close friendship and would live together in their ancestral home after Roger's retirement.[5]
+
+He attended Summer Fields School in Oxford, and in 1916 entered Eton College as a scholar. At Eton, he was part of a generation of pupils that included the historian Steven Runciman and the author George Orwell. His precocious interest in Latin literature and its transmission[a] was fostered by the encouragement of two of his teachers, Cyril Alington and M. R. James. Alington in particular became an influential mentor and friend since he, like Mynors, was fascinated with the manuscript traditions of medieval Europe.[6]
+
+Academic career</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+</html>
+<style>
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(250, 250, 250, 0.5);
+  color: #C75F48;
+  width: 100%;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
